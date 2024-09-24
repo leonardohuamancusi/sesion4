@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="miclase">
+        <h1>parrafo1</h1>
+    </div>
+    <div class="miclase">
+        <h1>parrafo 2</h1>
+    </div>
+    <div class="miclase">
+        <h1>parrafo 3</h1>
+    </div>
+    <script>
+        let primerelemento=document.querySelector(".miclase")
+        primerelemento.style.color="red"
+
+        let todoelemento=document.querySelectorAll(".miclase")
+        todoelemento.forEach(elemento => {
+elemento.style.border="1px solid blue"
+
+        });
+
+    </script>
+</body>
+</html>

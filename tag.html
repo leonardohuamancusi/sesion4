@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Parrafo 1</p>
+    <p>Parrafo 2</p>
+    <script>
+        let elementos=document.getElementsByTagName("p")
+        for(let i=0; i<elementos.length; i++){
+elementos[i].style.fontSize="30px";
+        }
+
+        let titulo=document.getElementsByTagName("h1")
+        for(let i=0; i<elementos.length; i++){
+            titulo[i].style.color="orange"
+            titulo[i].style.fontFamily="courier"
+        }
+    </script>
+</body>
+</html>
